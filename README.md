@@ -1,3 +1,14 @@
+![Accuracy](https://img.shields.io/badge/Model%20Accuracy-96.4%25-brightgreen)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![Framework](https://img.shields.io/badge/Framework-TensorFlow-orange)
+![Dataset](https://img.shields.io/badge/Dataset-PlantVillage-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Stars](https://img.shields.io/github/stars/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL?style=social)
+![Forks](https://img.shields.io/github/forks/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL?style=social)
+![Issues](https://img.shields.io/github/issues/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL)
+![Contributors](https://img.shields.io/github/contributors/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL)
+
 
 # Plant Disease Detection using Deep Learning
 

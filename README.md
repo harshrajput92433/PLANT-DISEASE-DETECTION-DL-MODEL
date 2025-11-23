@@ -1,6 +1,3 @@
-Here is your **single-tab (one-page, compact) README.md** with all required points in a continuous format — no multi-section spacing.
-
----
 
 # Plant Disease Detection using Deep Learning
 

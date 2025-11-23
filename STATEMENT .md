@@ -1,6 +1,13 @@
-Here is a **humanized single-page `statement.md`** including all required elements in one tab.
+# 🌿 Plant Disease Detection using Deep Learning
 
----
+![Project Type](https://img.shields.io/badge/Project-Academic-blue)
+![Domain](https://img.shields.io/badge/Domain-Agriculture-green)
+![Technology](https://img.shields.io/badge/Technology-AI%20%2F%20DL-yellow)
+![Accuracy](https://img.shields.io/badge/Accuracy-96.4%25-brightgreen)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![Dataset](https://img.shields.io/badge/Dataset-PlantVillage-lightgrey)
+![Framework](https://img.shields.io/badge/Framework-TensorFlow-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 # **Project Statement – Plant Disease Detection using Deep Learning**
 

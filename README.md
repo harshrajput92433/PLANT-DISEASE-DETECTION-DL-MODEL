@@ -8,7 +8,7 @@
 ![Forks](https://img.shields.io/github/forks/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL?style=social)
 ![Issues](https://img.shields.io/github/issues/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL)
 ![Contributors](https://img.shields.io/github/contributors/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL)
-
+![Project Guidelines (VIT BYOP PDF)](https://github.com/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL/blob/main/BuildYourOwnProject.pdf)
 
 # Plant Disease Detection using Deep Learning
 

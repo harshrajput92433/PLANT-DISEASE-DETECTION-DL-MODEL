@@ -1,120 +1,84 @@
-# PLANT-DISEASE-DETECTION-DL-MODEL
-Automatically identify diseases (and healthy state) of plant leaves from images to support early diagnosis, monitoring, and precision agriculture.
-🌿 Plant Disease Detection using Deep Learning
-📌 Overview
-This project is a deep learning–based solution designed to automatically detect plant leaf diseases from images. By using image classification techniques and convolutional neural networks (CNNs), the system can identify various plant diseases and differentiate healthy leaves from infected ones.
-The goal is to help farmers, researchers, and agricultural experts diagnose diseases early and reduce crop losses using an automated and accessible tool.
+Here is your **single-tab (one-page, compact) README.md** with all required points in a continuous format — no multi-section spacing.
 
-✨ Features
+---
 
+# Plant Disease Detection using Deep Learning
 
-Detects multiple plant diseases from leaf images
+## Overview
 
+This project implements a deep learning–based system for automatic classification of plant leaf diseases from images. The goal is to support early diagnosis and reduce crop losses by providing an accessible tool that can identify whether a leaf is healthy or infected. The model uses image-based learning with convolutional neural networks and can be deployed on mobile or web platforms for real-time use.
 
-Supports real-time image prediction (camera or uploaded images)
+## Features
 
+* Detects multiple plant diseases and healthy conditions using leaf images
+* High accuracy using transfer learning (EfficientNet, ResNet, MobileNet)
+* Grad-CAM explainability for visual understanding of predictions
+* Compatible with real-time camera predictions or uploaded images
+* Lightweight deployment options (TFLite / ONNX / FastAPI)
 
-High accuracy through transfer learning with modern CNN architectures (EfficientNet/ResNet)
+## Technologies / Tools Used
 
+Python, PyTorch/TensorFlow, EfficientNet/ResNet/MobileNet, Google Colab / Jupyter Notebook / VS Code, ONNX / TensorFlow Lite, Matplotlib, Grad-CAM visualization.
 
-Explainable AI with Grad-CAM visual heatmaps
+## Steps to Install & Run the Project
 
+1. Clone the repository:
 
-Ready for deployment on mobile, web, or cloud systems
-
-
-Lightweight and scalable model options
-
-
-
-🧰 Technologies / Tools Used
-CategoryTools / TechnologiesProgramming LanguagePythonDeep Learning FrameworkPyTorch / TensorFlow (choose based on implementation)Model ArchitecturesEfficientNet, ResNet50, MobileNetV3Development ToolsJupyter Notebook, Google Colab / VS CodeDeploymentONNX, TensorFlow Lite, FastAPI (optional)VisualizationMatplotlib, Grad-CAM
-
-🛠 Steps to Install & Run the Project
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/plant-disease-detection.git
 cd plant-disease-detection
+```
 
-2️⃣ Create a virtual environment
+2. Create and activate virtual environment:
+
+```bash
 python -m venv venv
-source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate           # Windows
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+```
 
-3️⃣ Install dependencies
+3. Install required packages:
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Add dataset
-Place your dataset inside the data/ directory.
-Example dataset: PlantVillage
-plant-disease-detection/
- └── data/
-      ├── train/
-      └── test/
+4. Add dataset inside the `data/` folder (example: PlantVillage dataset)
 
-5️⃣ Train the model
-python src/train.py --epochs 50 --batch-size 32 --model efficientnet
+```
+data/
+ ├── train/
+ └── test/
+```
 
-6️⃣ Run prediction
+5. Train the model:
+
+```bash
+python src/train.py --epochs 50 --batch-size 32
+```
+
+6. Run prediction:
+
+```bash
 python src/predict.py --image sample.jpg
+```
 
+## Instructions for Testing
 
-🧪 Instructions for Testing
-Test with single image
+To test with an image:
+
+```bash
 python src/predict.py --image path/to/leaf.jpg
+```
 
-Evaluate model performance
+To evaluate performance:
+
+```bash
 python src/evaluate.py
+```
 
-Outputs include:
+The testing output includes accuracy, precision/recall/F1-score, confusion matrix, and Grad-CAM heatmaps.
 
+---
 
-Accuracy & Loss graphs
-
-
-Confusion matrix
-
-
-Precision, Recall & F1-score
-
-
-Grad-CAM heatmaps for model explainability
-
-
-
-📂 Sample Project Structure
-plant-disease-detection/
-│── src/
-│   ├── train.py
-│   ├── evaluate.py
-│   ├── model.py
-│   ├── dataset.py
-│   └── predict.py
-│── data/
-│── saved_models/
-│── requirements.txt
-└── README.md
-
-
-🤝 Contributing
-Contributions and suggestions are welcome!
-Feel free to open an issue or submit a pull request.
-
-📜 License
-MIT License – free to use and modify.
-
-🌟 Acknowledgments
-Thanks to the open-source community and dataset contributors who support plant disease research and food security efforts.
-
-If you want, I can also prepare:
-
-
-📑 Research Report / IEEE paper format
-
-
-🎤 PowerPoint Presentation
-
-
-📱 Mobile App UI concept
-
-
-Would you like a project PPT or a final report document next?
+If you want, I can now provide the **PowerPoint PPT**, **project abstract**, or **final report**. Which one should I generate next?

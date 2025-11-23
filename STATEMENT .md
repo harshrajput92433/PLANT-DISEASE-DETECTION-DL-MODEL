@@ -8,7 +8,7 @@
 ![Dataset](https://img.shields.io/badge/Dataset-PlantVillage-lightgrey)
 ![Framework](https://img.shields.io/badge/Framework-TensorFlow-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![project guidlines](https://github.com/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL/blob/main/BuildYourOwnProject.pdf)
+![Project Guidlines(VIT BYOP PDF](https://github.com/harshrajput92433/PLANT-DISEASE-DETECTION-DL-MODEL/blob/main/BuildYourOwnProject.pdf)
 
 # **Project Statement – Plant Disease Detection using Deep Learning**
 
